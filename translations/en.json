@@ -1,0 +1,75 @@
+{
+  "profile": "Dmytro Kopan",
+  "skills": "Skills",
+  "experience": "Experience",
+  "projects": "Projects",
+  "education": "Education",
+  "spokenLanguages": "Spoken Languages",
+  "jobTitle": "Java Software Engineer",
+  "contact": "Contact Info",
+  "profileContent": "Java Software Engineer with 5+ years of experience in developing scalable, cloud-based applications and microservices. Skilled in Java, Spring Framework, and modern software development practices(CI/CD, TDD, BDD). Expertise in building clusterized cloud solutions, with hands-on experience in Apache Spark for streaming aggregation from Kafka. Proficient in containerization tools like Docker and Helm, ensuring seamless deployment and scalability. Strong background in automated testing with frameworks like Cucumber and deploying with Tilt, delivering reliable and high-quality software. A collaborative team player who thrives in Agile environments, ready to drive innovation and deliver impactful solutions.",
+  "skillsList": [
+    "Java",
+    "Spring Boot",
+    "Hibernate",
+    "SQL",
+    "Git",
+    "Docker",
+    "K8s",
+    "Helm",
+    "Agile",
+    "Spark",
+    "Tilt",
+    "Cucumber",
+    "Shell scripting",
+    "Python"
+  ],
+  "experiencesContent": [
+    {
+      "title": "<strong>Software Engineer</strong> - Ericsson Hungary Kft., Budapest, Hungary<br>2022 March - 2024 October",
+      "description": "<li>Develop and maintained Java cloud application for telecom KPIs aggregation</li><li>Collaborated with cross-functional teams to ensure on-time delivery of key projects</li><li>Ensure Security State of Copmliance</li><li>Automate Vulnerability Report Managment and Jira Ticket Creation</li><li>Risk Assessment of Vulnerabilities</li><li>Integrration with Project Lifecycle Management framework</li>"
+    },
+    {
+      "title":"<strong>Software Developer</strong> - Capsys Ltd., Budapest, Hungary<br>2019 August - 2022 February",
+      "description":"<li>Develop features and facilitate legacy frameworks in fintech on site</li><li>Design and implement a robust data reconciliation system to ensure the accuracy, consistency, and integrity of financial transactions in immediate payments within the FinTech ecosystem.</li><li>Ensure Satisfaction of FinTech Requirements for 99.999% Successful Transactions</li><li>Optimization of specification by restructuring it to improve readability and reusability</li>"
+    }
+  ],
+  "projectsList": [
+    {
+      "title": "Stream Aggregator",
+      "description": "Spark-based service designed to process and transform streaming data. The system ingests data from Apache Kafka as the input source, performs near-real-time processing, and outputs the results back to Kafka. The entire solution operates within a clustered microservices architecture, ensuring scalability, fault tolerance, and high availability.Additionally, the application is integrated with Prometheus for monitoring and observability. Metrics related to performance, resource utilization, and processing pipelines are exposed, enabling seamless integration with the broader monitoring ecosystem."
+    },
+    {
+      "title": "Custom Spotfire JDBC Driver",
+      "description": "Developed custom implementation of SQL interface to connect Spotfire server and OData RestAPI Layer of the cloud service."
+    },
+    {
+      "title": "Service mesh integration with ISTIO",
+      "description": "Integrated ISTIO system into existing clusterized service. Visualized communication between microservices. Improved the posture of service security by controlling egress traffic (forbidding malware to download external resources) and securing communication between microservices(mTLS)."
+    },
+    {
+      "title": "REST API OpenAPI yaml specification",
+      "description": "Analyzed and optimized the structure of the OpenAPI 3 YAML specification. Decomposed monolith YAML into multiple logically divided fragments, improved readability and the speed of implementing new features."
+    },
+    {
+      "title": "Calypso framework facilitation",
+      "description": "Modifying the data model to include new columns, referencing the legacy system's specifications"
+    },
+    {
+      "title": "Data reconciliation",
+      "description": "Microsoft Access based SQL project. Table joining and filtering with pivot for data representation"
+    },
+    {
+      "title": "Immediate Payments",
+      "description": "Integration and Facilitation of ACI Universal Payments for Immediate Payments. Providing support onsite for configuration and testing."
+    }
+  ],
+  "educationContent": [
+    "<strong>Research Engineer (MSc)</strong> - National Technical University of Ukraine (2010–2012)",
+    "<strong>Mechanical Engineer (BSc)</strong> - National Technical University of Ukraine (2006-2010)"
+  ],
+  "languagesList": [
+    "Ukrainian (Fluent)",
+    "English (Intermediate)"
+  ]
+}

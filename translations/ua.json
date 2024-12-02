@@ -1,0 +1,20 @@
+{
+    "profile": "Дмитро Копань",
+    "skills": "Професійні навички",
+    "experience": "Досвід",
+    "projects": "Проекти",
+    "education": "Освіта",
+    "spokenLanguages": "Мови спілкування",
+    "jobTitle": "Java Software Engineer",
+    "contact": "Контактна інформація",
+    "profileContent": "Java Software Engineer з 4+ роками досвіду розробки масштабованих, хмарних програм і мікросервісів. Володію Java, Spring Framework та сучасними методами розробки програмного забезпечення(CI/CD, TDD, BDD). Досвід створення кластеризованих хмарних рішень із практичним досвідом роботи з Apache Spark для потокової агрегації від Kafka. Володію такими інструментами контейнеризації, як Docker і Helm, що забезпечує безпроблемне розгортання та масштабованість. Міцний досвід автоматизованого тестування за допомогою таких фреймворків, як Cucumber і Tilt, що забезпечує надійне та високоякісне програмне забезпечення. Командний гравець, який успішно працює в гнучкому середовищі, готовий впроваджувати інновації та надавати ефективні рішення.",
+    "skillsList": ["Java", "Spring Boot", "Hibernate", "SQL", "Git", "Docker", "K8s", "Helm", "Agile", "Spark", "Tilt", "Cucumber", "Shell scripting", "Python"],
+    "experienceContent": "<p><strong>Software Engineer</strong> - ABC Tech, San Francisco, CA (2018–Present)</p><ul><li>Developed and maintained RESTful web services for high-traffic e-commerce platforms.</li><li>Implemented microservices architecture, improving application scalability by 40%.</li><li>Collaborated with cross-functional teams to ensure on-time delivery of key projects.</li></ul>",
+    "projectsList": [
+      { "title": "Inventory Management System", "description": "Streamlined inventory processes, reducing overhead by 25%." },
+      { "title": "Customer Portal", "description": "Designed a secure portal with Spring Security for seamless client interaction." }
+    ],
+    "educationContent": "<strong>Bachelor of Science in Computer Science</strong> - XYZ University (2013–2017)",
+    "languagesList": ["Українська (Рідна)", "Англійська (Розмовна)"]
+  }
+  

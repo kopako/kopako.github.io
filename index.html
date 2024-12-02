@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Software Engineer CV</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="container" id="app">
+    <header>
+      <h1>{{ translations.profile }}</h1>
+      <p>{{ translations.profileContent }}</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>{{ translations.skills }}</h2>
+        <div class="skills">
+          <div v-for="skill in translations.skillsList" :key="skill">{{ skill }}</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>{{ translations.experience }}</h2>
+        <div v-html="translations.experienceContent"></div>
+        <div v-for="exp in translations.experiencesContent" :key="exp.title">
+            <p v-html="exp.title"></p>
+            <ul>
+                <p v-html="exp.description" />
+            </ul>
+      </section>
+
+      <section>
+        <h2>{{ translations.projects }}</h2>
+        <div class="projects">
+          <div v-for="project in translations.projectsList" :key="project.title">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>{{ translations.education }}</h2>
+        <div v-for="ed in translations.educationContent" :key="ed">
+          <div v-html="ed"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>{{ translations.spokenLanguages }}</h2>
+        <div class="languages">
+          <div v-for="language in translations.languagesList" :key="language">{{ language }}</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="noprint">
+      <div class="language-switcher">
+        <label for="language">Select Language:</label>
+        <select id="language" v-model="currentLanguage" @change="loadTranslations">
+          <option value="ua">Ukrainian</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <!-- Add more languages if needed -->
+        </select>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
