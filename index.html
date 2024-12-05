@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Java Software Engineer CV</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://unpkg.com/vue@3"></script>
   <script src="app.js" defer></script>
 </head>
@@ -12,6 +13,25 @@
   <div class="container" id="app">
     <header>
       <h1>{{ translations.profile }}</h1>
+      <div class="contact">
+        <div class="contact-item">
+          <i class="fa fa-linkedin-square"></i>
+          <a href="https://www.linkedin.com/in/kopandima" target="_blank">linkedin.com/in/kopandima</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa fa-envelope gmail"></i>
+          <a href="mailto:kopandima@gmail.com">kopandima@gmail.com</a>
+        </div>
+        <div class="contact-item">
+            <i class="fa fa-phone phone"></i>
+            <a href="tel:+36704035145">+36704035145</a>
+        </div>
+        <div class="contact-item">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"/></svg> -->
+          <i class="fa fa-map-marker"></i>
+          <a href="https://maps.app.goo.gl/VjoMXEy47uA51FrRA" target="_blank">Budapest, Hungary</a>
+        </div>
+      </div> 
       <p>{{ translations.profileContent }}</p>
     </header>
 
